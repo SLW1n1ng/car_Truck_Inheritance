@@ -1,7 +1,7 @@
 #include "car.h"
 #include <iostream>
 
-Car::Car(const std::string& color, int year, const std::string& make, const std::string& model, int speed) : Vehicle(color, year, make, model, speed) {}
+Car::Car(const std::string& color, int year, const std::string& make, const std::string& model) : Vehicle(color, year, make, model) {}
 void Car::soundHorn() const { std::cout << "Sound car Horn" << std::endl; }
 void Car::start() const { std::cout << "Start car" << std::endl; }
 void Car::stop() const { std::cout << "Stop car" << std::endl; }

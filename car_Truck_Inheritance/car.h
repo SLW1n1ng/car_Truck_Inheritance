@@ -5,7 +5,7 @@
 class Car : public Vehicle
 {
 public:
-	Car(const std::string& color, int year, const std::string& make, const std::string& model, int speed);
+	Car(const std::string& color, int year, const std::string& make, const std::string& model);
 	void soundHorn() const override;
 	void start() const override;
 	void stop() const override;
